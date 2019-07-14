@@ -1,0 +1,39 @@
+﻿@using HotelReservation.V1.Web.Models
+@model List<HotelDetail>
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Hotel Detail</h2>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Hotel Name&emsp;</th>
+                <th>Hotel Address&emsp;</th>
+                <th>Hotel Contact&emsp;</th>
+                <th>Hotel Comment&emsp;</th>
+                <th>Hotel Score&emsp;</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var hotel in Model)
+             {
+                <tr>
+                    <td>@hotel.Name &emsp;</td>
+                    <td>@hotel.Address&emsp;</td>
+                    <td>@hotel.Contact&emsp;</td>
+                    <td>@hotel.Comment&emsp;</td>
+                    <td>@hotel.Score&emsp;</td>
+                    <img src="images/<%= @hotel.ImagePath %>" height="200" width="200" />
+                </tr>
+                <td><a class="btn btn-primary" href="/Hotel/RoomType/@hotel.Id">Room Type</a></td>                                             
+             }
+        </tbody>
+
+    </table>    
+</div>
+
+

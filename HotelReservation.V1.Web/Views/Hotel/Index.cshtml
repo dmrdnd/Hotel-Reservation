@@ -1,0 +1,43 @@
+﻿@model  List<HotelReservation.V1.Web.App_Data.Hotel>
+
+@{
+    ViewBag.Title = "_Layout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Otel Adı Giriniz</h2>
+<form method="get" action="Search">
+    <div class="form-group">
+        <input type="text" name="Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Hotel Search</button>
+  
+</form>
+
+<br />
+<br />
+
+<div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hotel in Model)
+            {
+                <tr>
+                    <td>@hotel.Name</td>
+                    <td>@hotel.Description</td>
+                    <td><a class="btn btn-primary" href="/Hotel/Detail/@hotel.Id">Detail</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

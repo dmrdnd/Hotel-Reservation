@@ -1,0 +1,9 @@
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\bin\Debug\netstandard2.0\HotelReservation.DataAccess.deps.json
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\bin\Debug\netstandard2.0\HotelReservation.DataAccess.dll
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\obj\Debug\netstandard2.0\HotelReservation.DataAccess.csproj.CoreCompileInputs.cache
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\obj\Debug\netstandard2.0\HotelReservation.DataAccess.AssemblyInfoInputs.cache
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\obj\Debug\netstandard2.0\HotelReservation.DataAccess.AssemblyInfo.cs
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\obj\Debug\netstandard2.0\HotelReservation.DataAccess.csprojAssemblyReference.cache
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\bin\Debug\netstandard2.0\HotelReservation.DataAccess.pdb
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\obj\Debug\netstandard2.0\HotelReservation.DataAccess.dll
+D:\DevnotEğitim\HotelReservation.V1.Web\HotelResevation.DataAccess\obj\Debug\netstandard2.0\HotelReservation.DataAccess.pdb

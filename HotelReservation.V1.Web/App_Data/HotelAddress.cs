@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace HotelReservation.V1.Web.App_Data
+{
+    public partial class HotelAddress
+    {
+        public int Id { get; set; }
+        public int? HotelId { get; set; }
+        public string AddressText { get; set; }
+        public int? CityId { get; set; }
+        public string PostalCode { get; set; }
+        public string LocationLatitude { get; set; }
+        public string LocationLongtitude { get; set; }
+
+        public virtual Hotel Hotel { get; set; }
+    }
+}

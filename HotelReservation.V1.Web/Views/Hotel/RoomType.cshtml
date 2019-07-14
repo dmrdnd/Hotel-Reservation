@@ -1,0 +1,30 @@
+﻿@model List<HotelReservation.V1.Web.Models.ViewRoomType>
+
+@{
+    ViewBag.Title = "RoomType";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>RoomType</h2><br /><br />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Summary</th>
+            <th>Type Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var type in Model)
+        {
+        <tr>
+            <td>@type.RoomSummary</td>
+            <td>@type.TypeName</td>
+            <td><a class="btn btn-primary" href="/Hotel/HotelPrice/@type.RoomTypeId">Select</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+    
+

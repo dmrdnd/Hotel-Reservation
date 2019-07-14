@@ -1,0 +1,35 @@
+﻿@model List<HotelReservation.V1.Web.App_Data.HotelRoomPrice>
+
+@{
+    ViewBag.Title = "HotelPrice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>HotelPrice</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Price</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var type in Model)
+        {
+            <tr>
+                <td>@type.Price</td>
+                <td>@type.StartDate</td>
+                <td>@type.EndDate</td>              
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
